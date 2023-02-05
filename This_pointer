@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+class c1{
+    private:
+    int x;
+    public:
+    void setX(int x){
+           this->x=x;
+    }
+    void print(){
+        cout<<"x"<<" "<<x;
+    }
+
+};
+
+
+int main(){
+    c1 ob;
+    ob.setX(10);
+    ob.print();
+    return 0;
+}
