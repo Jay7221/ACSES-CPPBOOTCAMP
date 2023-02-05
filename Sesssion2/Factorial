@@ -1,0 +1,19 @@
+#include<bits/stdc++.h>
+using namespace std;
+ 
+ int Factorial(int num){
+    if(num==1 || num==0){
+        return 1;
+    }
+    else{
+        return num*Factorial(num-1);
+    }
+}
+int main(){
+     int n;
+       cout<<"Enter the number you want factorial value of: "<<endl;
+       cin>>n;
+       int factvalue=Factorial(n);
+       cout<<"The factorial of "<<n<<" is "<<factvalue<<endl;
+    return 0;
+}
