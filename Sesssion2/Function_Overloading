@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+
+float area(float b,float h){
+    return 0.5*b*h;
+}
+
+float area(float r){
+    return 3.14*r*r;
+}
+
+
+int main(){
+
+    float a1,a2;
+    a1=area(3.5,4.2);
+    cout<<"The area of the triangle is: "<<a1<<endl;
+
+    a2=area(6);
+    cout<<"The area of the circle is: "<<a2<<endl;
+
+    return 0;
+}
