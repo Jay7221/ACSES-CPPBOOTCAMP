@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+
+void get(int &y){
+    y=69;
+    cout<<"The value of y (as parameter) is: "<<y<<endl;
+}
+int main(){
+    int y=70;
+    get(y);
+    cout<<"The value of y (as argument) is: "<<y<<endl;
+    return 0;
+}
