@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+
+void  gm(int n){
+     if(n<5){
+        cout<<"Good Afternoon!!"<<endl;
+        n++;
+        gm(n);
+     }
+      
+}
+int main(){
+    gm(0);
+    return 0;
+}
