@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+
+//void Greet(string name="Shrenika"){
+//    cout<<"Hello "<<name<<",Good Morning!."<<endl;
+//}
+
+int Square(int x){
+    return x*x;
+}
+int main(){
+    //Greet("Sanket");
+   // Greet("Sanket");
+   //Greet();
+   int a=Square(7);
+   cout<<"The square is: "<<a<<endl;
+    return 0;
+}
